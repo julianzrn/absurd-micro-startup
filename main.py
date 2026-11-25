@@ -1,6 +1,6 @@
 """Entry for make.fun competition: u-ricoxyz-absurd-micro-startup-pitch-off-12e33571.
 
-Running this program writes the entry line to /output/entry.txt.
+Running this program writes the entry pitch to /output/entry.txt.
 """
 
 from pathlib import Path
@@ -20,7 +20,7 @@ def write_entry(text: str, path: Path) -> None:
 
 
 def main() -> None:
-    """Write the entry line to the fixed output path."""
+    """Write the entry pitch to the fixed output path."""
     write_entry(ENTRY, OUTPUT_PATH)
 
 
